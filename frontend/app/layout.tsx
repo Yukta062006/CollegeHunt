@@ -3,14 +3,11 @@ import { Toaster } from "sonner"
 
 export default function RootLayout({
   children,
-}:{
-  children:React.ReactNode
+}: {
+  children: React.ReactNode
 }) {
-
   return (
-
     <html lang="en">
-
       <body>
 
         {children}
@@ -18,8 +15,6 @@ export default function RootLayout({
         <Toaster richColors />
 
       </body>
-
     </html>
-
   )
 }
