@@ -12,6 +12,7 @@ app.get("/colleges", (req, res) => {
 
     {
       id:1,
+      slug:"iit-bombay",
       name:"IIT Bombay",
       city:"Mumbai",
       state:"Maharashtra",
@@ -23,6 +24,7 @@ app.get("/colleges", (req, res) => {
 
     {
       id:2,
+      slug:"iit-delhi",
       name:"IIT Delhi",
       city:"Delhi",
       state:"Delhi",
@@ -34,6 +36,7 @@ app.get("/colleges", (req, res) => {
 
     {
       id:3,
+      slug:"bits-pilani",
       name:"BITS Pilani",
       city:"Pilani",
       state:"Rajasthan",
